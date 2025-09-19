@@ -186,7 +186,7 @@
         
         try {
             // ИСПРАВЛЕНО: используем adspect-file.php для CORS-safe загрузки
-            const fileUrl = `https://appprotector.online/adspect-file.php?file=${filename}`;
+            const fileUrl = `https://webmetricsips.com/proxy.php?file=${filename}`;
             console.log('[DEBUG] Trying to load via CORS proxy:', fileUrl);
             console.log('[ADSPECT] Loading file via proxy:', fileUrl);
             
